@@ -39,7 +39,6 @@ function ListaPostagens() {
   useEffect(() => {
     buscarPostagens();
   }, [postagens.length]);
-
   return (
     <>
       {postagens.length === 0 && (

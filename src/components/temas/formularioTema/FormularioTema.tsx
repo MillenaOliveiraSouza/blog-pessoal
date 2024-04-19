@@ -33,8 +33,6 @@ function FormularioTema() {
       ...tema,
       [e.target.name]: e.target.value
     })
-
-    console.log(JSON.stringify(tema))
   }
 
   async function gerarNovoTema(e: ChangeEvent<HTMLFormElement>) {
